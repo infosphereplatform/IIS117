@@ -1,0 +1,15 @@
+https://www.ibm.com/support/pages/apar/JR62493
+
+Error description
+
+    When running a DataStage job which was reset after its
+    previous run, this fault can cause incorrect status and
+    row count information to be shown on the Director job
+    monitor screen. It also affects the link information
+    delivered from the dsjob command and the DataStage APIs.
+
+Local fix
+
+    Workaround: Recompile the job instead of resetting it
+
+Permanent Fix : Install the JR62493 patch on the engine tier.
